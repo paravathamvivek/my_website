@@ -1,45 +1,60 @@
-* {
-    box-sizing: border-box;
+html, body {
+    height:100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5; /* optional page background */
+}
+
+
+
+
+
+
+
+.container{
+    background-color: #525799;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    text-decoration:dotted;
+    font-size:20px;
+}
+
+
+.site_title
+{
+    color:gold;
+    font-size: 50px;
+}
+
+
+.content{
+    padding: 15px;
+    color: rgb(245, 238, 238);
+}
+
+.content th{
     margin: 0;
     padding: 0;
-    border: 0;
-}
-
-.body {
-    background-color: lightgreen;
-}
-.container{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px
+    width: 80%;
+    border-color:none;
+    border-width: 5px;
+    border-style: solid;
+    text-align: center;
 }
 
 
-.apply-box {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 100px;                               
-    background-color: aliceblue;                     /* color of box */
-    box-shadow: 4px 4px 10px rgb(5, 5, 5, 0.1);        /* for shadow below the box */
-    border-radius: 20px;                               /* for rounded corner */;
-
+.content img{
+    width: 300px;
+    height: auto;
 }
 
 
-.title-small {
-    font-size: 20px;
-    }
-
- .button_container {
-        color: red;
-        text-align: center;
-        margin-top: 20px;
-
-    }
-
-    .form_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5px;
-    }
-    
+.vk{
+    color:rgb(0, 0, 0)
+}
